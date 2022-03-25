@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <header>
         <div class="container">
             <div class="header-left">
@@ -36,23 +37,27 @@
             </div>
         </div>
     </header>
-
     <main class="product-page">
         <div class="slider">
-
             <div class="preview-component">
                 <div class="product-image-holder">
                     <img src="images/image-product-1.jpg" alt="product">
                 </div>
                 <div class="thumbnails">
-                    <img src="images/image-product-1-thumbnail.jpg" alt="thumbnail">
-                    <img src="images/image-product-2-thumbnail.jpg" alt="thumbnail">
-                    <img src="images/image-product-3-thumbnail.jpg" alt="thumbnail">
-                    <img src="images/image-product-4-thumbnail.jpg" alt="thumbnail">
+                    <div class="thumbnail">
+                        <img src="images/image-product-1-thumbnail.jpg" alt="thumbnail">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="images/image-product-2-thumbnail.jpg" alt="thumbnail">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="images/image-product-3-thumbnail.jpg" alt="thumbnail">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="images/image-product-4-thumbnail.jpg" alt="thumbnail">
+                    </div>
                 </div>
             </div>
-
-
         </div>
         <div class="product-info">
             <h3>Sneaker Company</h3>
@@ -62,20 +67,44 @@
             <h3 class="price">$125.00 <span class="discount">50%</span></h3>
             <span class="price-after-discount">$250.00</span>
             <div class="form">
-                    <div class="product-count">
-                        <a class="button-count"><i class="fa-solid fa-plus"></i></a>
-                        <input type="text" readonly class="number-product" value="0">
-                        <a class="button-count"><i class="fa-solid fa-minus"></i></a>
-                        
-                    </div>
-                    <button class="add-button">Add to cart</button>
+                <div class="product-count">
+                    <a class="button-count"><i class="fa-solid fa-plus"></i></a>
+                    <input type="text" readonly class="number-product" value="0">
+                    <a class="button-count"><i class="fa-solid fa-minus"></i></a>
+                </div>
+                <button class="add-button">Add to cart</button>
             </div>
         </div>
         </div>
+      
     </main>
+    <div class="modal ">
+        <div class="modal-content">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+            <div class="product-image-holder">
+                <img src="images/image-product-1.jpg" alt="product">
+            </div>
+            <div class="thumbnails">
+                <div class="thumbnail">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="thumbnail">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/image-product-2-thumbnail.jpg" alt="thumbnail">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/image-product-3-thumbnail.jpg" alt="thumbnail">
+                </div>
+                <div class="thumbnail">
+                    <img src="images/image-product-4-thumbnail.jpg" alt="thumbnail">
+                </div>
+            </div>
+        </div>
+    </div>
+   
 
 
-
+    <script src="javascript/my_js.js
+    "></script>
     <script src="javascript/all.js"></script>
 </body>
 
