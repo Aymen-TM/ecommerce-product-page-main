@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/my_css.css">
+    <link rel="stylesheet" href="styles/css_reset.css">
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <i class="fa-solid fa-bars header-icon menu"></i>
+                <img src="images/logo.svg" alt="logo">
+                <ul class="nav-list" role="list">
+                    <li><a href="#" class="nav-link">Collections</a></li>
+                    <li><a href="#" class="nav-link">Men</a></li>
+                    <li><a href="#" class="nav-link">Women</a></li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <i class="fa-solid fa-cart-shopping header-icon"></i>
+                <div class="avatar-holder">
+                    <img src="images/image-avatar.png" alt="avatar">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <div class="slider">
+
+            <div class="preview-component">
+                <div class="product-image-holder">
+                    <img src="images/image-product-1.jpg" alt="product">
+                </div>
+                <div class="thumbnails">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="thumbnail">
+                    <img src="images/image-product-2-thumbnail.jpg" alt="thumbnail">
+                    <img src="images/image-product-3-thumbnail.jpg" alt="thumbnail">
+                    <img src="images/image-product-4-thumbnail.jpg" alt="thumbnail">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="product-info">
+            <h3>Sneaker Company</h3>
+            <h1>Fall Limited Edition Sneakers</h1>
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer
+                sole, they’ll withstand everything the weather can offer.</p>
+            <h3 class="price">$125.00 <span class="discount">50%</span></h3>
+            <span class="price-after-discount">$250.00</span>
+            <div class="form">
+                    <div class="product-count">
+                        <a class="button-count"><i class="fa-solid fa-plus"></i></a>
+                        <input type="text" readonly class="number-product" value="0">
+                        <a class="button-count"><i class="fa-solid fa-minus"></i></a>
+                        
+                    </div>
+                    <button class="add-button">Add to cart</button>
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+
+    <script src="javascript/all.js"></script>
+</body>
+
+</html>
