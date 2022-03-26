@@ -19,7 +19,7 @@
     <header>
         <div class="container">
             <div class="header-left">
-                <i class="fa-solid fa-bars header-icon menu"></i>
+                <div class="menu"><i class="fa-solid fa-bars header-icon"></i></div>
                 <img src="images/logo.svg" alt="logo">
                 <ul class="nav-list" role="list">
                     <li><a href="#" class="nav-link">Collections</a></li>
@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <div class="header-right">
-                <i class="fa-solid fa-cart-shopping header-icon"></i>
+                <a class="header-icon"><i class="fa-solid fa-cart-shopping "></i></a>
                 <div class="avatar-holder">
                     <img src="images/image-avatar.png" alt="avatar">
                 </div>
@@ -38,6 +38,7 @@
         </div>
     </header>
     <main class="product-page">
+
         <div class="slider">
             <div class="preview-component">
                 <div class="product-image-holder">
@@ -60,29 +61,60 @@
             </div>
         </div>
         <div class="product-info">
+
             <h3>Sneaker Company</h3>
             <h1>Fall Limited Edition Sneakers</h1>
-            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer
+            <p class="description">These low-profile sneakers are your perfect casual wear companion. Featuring a
+                durable rubber outer
                 sole, they’ll withstand everything the weather can offer.</p>
-            <h3 class="price">$125.00 <span class="discount">50%</span></h3>
-            <span class="price-after-discount">$250.00</span>
+            <div class="price-container">
+                <h3 class="price">$125.00 <span class="discount">50%</span>
+                </h3>
+                <p class="price-after-discount">$250.00</p>
+            </div>
             <div class="form">
                 <div class="product-count">
-                    <a class="button-count"><i class="fa-solid fa-plus"></i></a>
-                    <input type="text" readonly class="number-product" value="0">
-                    <a class="button-count"><i class="fa-solid fa-minus"></i></a>
+                    <a class="button-count minus"><i class="fa-solid fa-minus"></i></a>
+                    <input type="number" readonly class="quantity" value="0">
+                    <a class="button-count plus"><i class="fa-solid fa-plus"></i></a>
                 </div>
                 <button class="add-button">Add to cart</button>
             </div>
+
         </div>
+
         </div>
-      
+        <div class="cart">
+            <div class="cart-header">
+                Cart
+            </div>
+            <div class="cart-body">
+            
+            </div>
+            <div class="checkout"><a >Checkout</a></div>
+        </div>
+        
+
     </main>
+    <div class="drawer-container">
+        <div class="drawer">
+            <div class="close-drawer"><i class="fa-solid fa-xmark"></i></div>
+            <ul class="nav-list" role="list">
+                <li><a href="#" class="nav-link">Collections</a></li>
+                <li><a href="#" class="nav-link">Men</a></li>
+                <li><a href="#" class="nav-link">Women</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="modal ">
         <div class="modal-content">
             <div class="close"><i class="fa-solid fa-xmark"></i></div>
             <div class="product-image-holder">
                 <img src="images/image-product-1.jpg" alt="product">
+                <span class="arrow left-arrow"><i class="fa-solid fa-arrow-left"></i></span>
+                <span class="arrow right-arrow"><i class="fa-solid fa-arrow-right"></i></span>
             </div>
             <div class="thumbnails">
                 <div class="thumbnail">
@@ -100,7 +132,7 @@
             </div>
         </div>
     </div>
-   
+
 
 
     <script src="javascript/my_js.js
